@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PixelspaceShooter_WebGL_3.loader.js";
+      var loaderUrl = buildUrl + "/PixelspaceShooter_WebGL_4.loader.js";
       var config = {
-        dataUrl: buildUrl + "/PixelspaceShooter_WebGL_3.data.unityweb",
-        frameworkUrl: buildUrl + "/PixelspaceShooter_WebGL_3.framework.js.unityweb",
-        codeUrl: buildUrl + "/PixelspaceShooter_WebGL_3.wasm.unityweb",
+        dataUrl: buildUrl + "/PixelspaceShooter_WebGL_4.data.unityweb",
+        frameworkUrl: buildUrl + "/PixelspaceShooter_WebGL_4.framework.js.unityweb",
+        codeUrl: buildUrl + "/PixelspaceShooter_WebGL_4.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "GDD_MiniGame",
@@ -65,6 +65,7 @@
         canvas.style.width = "1366px";
         canvas.style.height = "768px";
       }
+      canvas.style.background = "url('" + buildUrl + "/PixelspaceShooter_WebGL_4.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
