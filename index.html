@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1366 height=768></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/pixelspace-shooter-webgl.loader.js";
+      var loaderUrl = buildUrl + "/PixelspaceShooter_WebGL_2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/pixelspace-shooter-webgl.data.unityweb",
-        frameworkUrl: buildUrl + "/pixelspace-shooter-webgl.framework.js.unityweb",
-        codeUrl: buildUrl + "/pixelspace-shooter-webgl.wasm.unityweb",
+        dataUrl: buildUrl + "/PixelspaceShooter_WebGL_2.data.unityweb",
+        frameworkUrl: buildUrl + "/PixelspaceShooter_WebGL_2.framework.js.unityweb",
+        codeUrl: buildUrl + "/PixelspaceShooter_WebGL_2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "GDD_MiniGame",
@@ -62,8 +62,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1366px";
+        canvas.style.height = "768px";
       }
       loadingBar.style.display = "block";
 
