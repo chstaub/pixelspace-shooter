@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | GDD_MiniGame</title>
+    <title>Unity WebGL Player | Pixelspace Shooter</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,19 +22,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">GDD_MiniGame</div>
+        <div id="unity-build-title">Pixelspace Shooter</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PixelspaceShooter_WebGL_final.loader.js";
+      var loaderUrl = buildUrl + "/PixespaceShooter_WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/PixelspaceShooter_WebGL_final.data.unityweb",
-        frameworkUrl: buildUrl + "/PixelspaceShooter_WebGL_final.framework.js.unityweb",
-        codeUrl: buildUrl + "/PixelspaceShooter_WebGL_final.wasm.unityweb",
+        dataUrl: buildUrl + "/PixespaceShooter_WebGL.data.unityweb",
+        frameworkUrl: buildUrl + "/PixespaceShooter_WebGL.framework.js.unityweb",
+        codeUrl: buildUrl + "/PixespaceShooter_WebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "GDD_MiniGame",
+        companyName: "DustyBernieLab",
+        productName: "Pixelspace Shooter",
         productVersion: "1.0",
       };
 
@@ -65,7 +65,7 @@
         canvas.style.width = "1366px";
         canvas.style.height = "768px";
       }
-      canvas.style.background = "url('" + buildUrl + "/PixelspaceShooter_WebGL_final.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/PixespaceShooter_WebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
